@@ -12,13 +12,13 @@ export default function Caro() {
             </form>
           </div>
           <div class="carousel-item active">
-            <img src="https://w.forfun.com/fetch/e5/e594d337200536d04e08e6584a690275.jpeg" class="d-block w-100" alt="..." style={{filter:"brightness(30%)"}} />
+            <img src="https://w.forfun.com/fetch/e5/e594d337200536d04e08e6584a690275.jpeg" class="d-block w-100" alt="..." style={{filter:"brightness(50%)"}} />
           </div>
           <div class="carousel-item">
-            <img src="https://w0.peakpx.com/wallpaper/467/393/HD-wallpaper-food-dessert-still-life.jpg" class="d-block w-100" alt="..." style={{filter:"brightness(30%)"}}/>
+            <img src="https://w0.peakpx.com/wallpaper/467/393/HD-wallpaper-food-dessert-still-life.jpg" class="d-block w-100" alt="..." style={{filter:"brightness(50%)"}}/>
           </div>
           <div class="carousel-item">
-            <img src="https://c4.wallpaperflare.com/wallpaper/234/543/684/food-pizza-wallpaper-preview.jpg" class="d-block w-100" alt="..." style={{filter:"brightness(30%)"}}/>
+            <img src="https://c4.wallpaperflare.com/wallpaper/234/543/684/food-pizza-wallpaper-preview.jpg" class="d-block w-100" alt="..." style={{filter:"brightness(50%)"}}/>
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
