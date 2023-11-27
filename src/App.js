@@ -1,10 +1,33 @@
+// Put any other imports below so that CSS from your
+// components takes precedence over default styles.
 import './App.css';
+import Home from './screens/Home';
+import Login from './screens/Login';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom"; 
+
+import "../node_modules/bootstrap-dark-5/dist/css/bootstrap-dark.min.css";
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
+// import "../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
+// import "../node_modules/bootstrap/dist/js/bootstrap.js";
+// import "../node_modules/bootstrap/dist/js/bootstrap.js";
+// import "../node_modules/bootstrap/dist/js/bootstrap.esm.js";
+// import "../node_modules/bootstrap/dist/js/bootstrap.min.js";
+
+
 
 function App() {
   return (
-    <div>
-      <h1>hello WOrld</h1>
-    </div>
+    <Router>
+      <Routes>
+        <Route exact path='/' element={<Home/>} />
+        <Route exact path='/login' element={<Login/>} />
+      </Routes>
+    </Router>
   );
 }
 
