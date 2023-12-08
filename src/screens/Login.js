@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
-import { Link, useNavigate } from "react-router-dom"
+import { Link, json, useNavigate } from "react-router-dom"
 
 export default function Login
 () {
@@ -18,6 +18,8 @@ export default function Login
     // Handle the response here, for example:
     if (response.ok) {
       // Request was successful, handle the response
+      localStorage.setItem("authToken", json.authToken);
+      console.log(localStorage.getItem("authToken"));
       Navigate("/");
       const data = await response.json();
       console.log("Data from server:", data);
